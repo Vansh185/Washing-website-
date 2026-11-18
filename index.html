@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShineHub | Car & Bike Wash</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="logo">✦ Shine<span>Hub</span></div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#packages">Packages</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <a href="#booking" class="nav-btn">Book Now ↗</a>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-text">
+        <p class="tag">PREMIUM VEHICLE CARE</p>
+        <h1>Give Your Ride<br><span>A Perfect Shine.</span></h1>
+        <p>Professional car and bike washing services.
+           Your vehicle deserves the best care.</p>
+        <a href="#booking" class="btn">Book Your Wash →</a>
+    </div>
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=1200&q=85" alt="Car wash">
+    </div>
+</section>
+
+<section class="services" id="services">
+    <p class="tag">OUR SERVICES</p>
+    <h2>What We <span>Wash</span></h2>
+
+    <div class="service-container">
+        <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=85" alt="Car">
+            <h3>Car Washing</h3>
+            <p>Exterior wash, interior cleaning and polishing.</p>
+            <a href="#booking">Book Car Wash →</a>
+        </div>
+
+        <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=85" alt="Bike">
+            <h3>Bike Washing</h3>
+            <p>Complete bike cleaning with a premium finish.</p>
+            <a href="#booking">Book Bike Wash →</a>
+        </div>
+    </div>
+</section>
+
+<section class="packages" id="packages">
+    <p class="tag">OUR PRICING</p>
+    <h2>Choose Your <span>Package</span></h2>
+
+    <div class="package-container">
+        <div class="package-card">
+            <h3>Basic Car Wash</h3>
+            <h2>₹499</h2>
+            <p>Exterior foam wash</p>
+            <p>Wheel cleaning</p>
+            <p>Hand dry finish</p>
+            <a href="#booking">Choose Plan</a>
+        </div>
+
+        <div class="package-card featured">
+            <h3>Premium Car Wash</h3>
+            <h2>₹899</h2>
+            <p>Exterior foam wash</p>
+            <p>Interior vacuum</p>
+            <p>Dashboard polishing</p>
+            <p>Glass cleaning</p>
+            <a href="#booking">Choose Plan</a>
+        </div>
+
+        <div class="package-card">
+            <h3>Basic Bike Wash</h3>
+            <h2>₹149</h2>
+            <p>Body washing</p>
+            <p>Wheel cleaning</p>
+            <p>Hand dry finish</p>
+            <a href="#booking">Choose Plan</a>
+        </div>
+
+        <div class="package-card featured">
+            <h3>Premium Bike Wash</h3>
+            <h2>₹299</h2>
+            <p>Complete bike wash</p>
+            <p>Chain area cleaning</p>
+            <p>Polishing</p>
+            <a href="#booking">Choose Plan</a>
+        </div>
+    </div>
+</section>
+
+<section class="booking" id="booking">
+    <p class="tag">ONLINE APPOINTMENT</p>
+    <h2>Book Your <span>Wash</span></h2>
+
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Your Full Name" required>
+        <input type="tel" id="phone" placeholder="Mobile Number" pattern="[0-9]{10}" required>
+
+        <select id="vehicle" required>
+            <option value="">Select Vehicle</option>
+            <option>Car</option>
+            <option>Bike</option>
+        </select>
+
+        <input type="text" id="model" placeholder="Vehicle Model" required>
+
+        <select id="package" required>
+            <option value="">Select Package</option>
+            <option>Basic Car Wash - ₹499</option>
+            <option>Premium Car Wash - ₹899</option>
+            <option>Basic Bike Wash - ₹149</option>
+            <option>Premium Bike Wash - ₹299</option>
+        </select>
+
+        <input type="date" id="date" required>
+
+        <select id="time" required>
+            <option value="">Select Time</option>
+            <option>09:00 AM</option>
+            <option>10:00 AM</option>
+            <option>11:00 AM</option>
+            <option>12:00 PM</option>
+            <option>02:00 PM</option>
+            <option>03:00 PM</option>
+            <option>04:00 PM</option>
+            <option>05:00 PM</option>
+        </select>
+
+        <textarea id="address" placeholder="Your Address"></textarea>
+
+        <button type="submit">Confirm Booking →</button>
+    </form>
+    <p id="message"></p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Let's Make Your Ride Shine!</h2>
+    <p>Contact us for bookings and enquiries.</p>
+    <p>📞 +91 7355304094</p>
+    <p>📍 Indramil,Bhadohi</p>
+</section>
+
+<footer>
+    <h3>✦ ShineHub</h3>
+    <p>Premium Car & Bike Washing Services</p>
+    <p>© 2026 ShineHub. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
